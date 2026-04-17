@@ -43,8 +43,6 @@ namespace reservations_api.Migrations
 
                     b.ToTable("Classrooms");
                 });
-<<<<<<< HEAD
-=======
 
             modelBuilder.Entity("reservations_api.Models.Entities.Reservation", b =>
                 {
@@ -68,7 +66,6 @@ namespace reservations_api.Migrations
 
                     b.ToTable("Reservations");
                 });
->>>>>>> upstream/create-reservations-sample
 #pragma warning restore 612, 618
         }
     }
