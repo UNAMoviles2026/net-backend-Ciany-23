@@ -10,4 +10,8 @@ public class AppDbContext : DbContext
     }
 
     public DbSet<Classroom> Classrooms => Set<Classroom>();
+<<<<<<< HEAD
+=======
+    public DbSet<Reservation> Reservations => Set<Reservation>();
+>>>>>>> upstream/create-reservations-sample
 }
